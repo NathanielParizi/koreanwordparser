@@ -12,8 +12,8 @@ public class KoreanParser {
 		System.out.println(lines[4690]);  
 
 	}
-	
-	public static String koreanParser() {
+
+	private static String koreanParser() {
 		
 		return "그만큼\r\n" + 
 				"있다\r\n" + 
@@ -362,7 +362,7 @@ public class KoreanParser {
 				"건강\r\n" + 
 				"사람\r\n" + 
 				"미술\r\n" + 
-				"확실한\r\n" + 
+				"확실한\r\n" +
 				"이러한\r\n" + 
 				"전쟁\r\n" + 
 				"역사\r\n" + 
@@ -586,7 +586,7 @@ public class KoreanParser {
 				"기술하다\r\n" + 
 				"생성물\r\n" + 
 				"의사\r\n" + 
-				"벽\r\n" +
+				"벽\r\n" + 
 				"환자\r\n" + 
 				"노동자\r\n" + 
 				"뉴스\r\n" + 
@@ -679,7 +679,7 @@ public class KoreanParser {
 				"은행\r\n" + 
 				"자기\r\n" + 
 				"확실히\r\n" + 
-				"서쪽의\r\n" + 
+				"서쪽\r\n" + 
 				"스포츠\r\n" + 
 				"판\r\n" + 
 				"목표물 탐색\r\n" + 
@@ -899,7 +899,7 @@ public class KoreanParser {
 				"닫기\r\n" + 
 				"소리\r\n" + 
 				"즐겨\r\n" + 
-				"회로망\r\n" + 
+				"회로망\r\n" +
 				"적법한\r\n" + 
 				"종교적인\r\n" + 
 				"감기\r\n" + 
@@ -960,7 +960,7 @@ public class KoreanParser {
 				"법안\r\n" + 
 				"넓은\r\n" + 
 				"떨림\r\n" + 
-				"파리\r\n" +
+				"파리\r\n" + 
 				"회견\r\n" + 
 				"꾸리다\r\n" + 
 				"의자\r\n" + 
@@ -1325,7 +1325,7 @@ public class KoreanParser {
 				"이점\r\n" + 
 				"빨리\r\n" + 
 				"빛\r\n" + 
-				"지도\r\n" + 
+				"지도\r\n" +
 				"벌다\r\n" + 
 				"파운드\r\n" + 
 				"기초\r\n" + 
@@ -1438,7 +1438,7 @@ public class KoreanParser {
 				"타격\r\n" + 
 				"구성\r\n" + 
 				"종류\r\n" + 
-				"지성\r\n" +
+				"지성\r\n" + 
 				"멸하다\r\n" + 
 				"쿡\r\n" + 
 				"연결\r\n" + 
@@ -2123,7 +2123,315 @@ public class KoreanParser {
 				"리뷰\r\n" + 
 				"덮개\r\n" + 
 				"랩\r\n" + 
-				"~하다\r\n" +
+				"제공\r\n" + 
+				"디스플레이\r\n" + 
+				"비판\r\n" + 
+				"유산\r\n" + 
+				"우울증\r\n" + 
+				"영적인\r\n" + 
+				"뮤지컬\r\n" + 
+				"기자\r\n" + 
+				"기도\r\n" + 
+				"용의자\r\n" + 
+				"학자\r\n" + 
+				"경고\r\n" + 
+				"기후\r\n" + 
+				"치즈\r\n" + 
+				"관측\r\n" + 
+				"어린 시절\r\n" + 
+				"지불\r\n" + 
+				"경\r\n" + 
+				"허가\r\n" + 
+				"담배\r\n" + 
+				"정의\r\n" + 
+				"우선 순위\r\n" + 
+				"빵\r\n" + 
+				"창조\r\n" + 
+				"졸업하다\r\n" + 
+				"의뢰\r\n" + 
+				"감정\r\n" + 
+				"비명\r\n" + 
+				"극적인\r\n" + 
+				"우주\r\n" + 
+				"갭\r\n" + 
+				"우수한\r\n" + 
+				"깊이\r\n" + 
+				"수행자\r\n" + 
+				"표\r\n" + 
+				"녹색\r\n" + 
+				"운이 좋은\r\n" + 
+				"견인\r\n" + 
+				"공기 호스\r\n" + 
+				"도서관\r\n" + 
+				"비망록\r\n" + 
+				"다시 덮다\r\n" + 
+				"공장\r\n" + 
+				"선택\r\n" + 
+				"주로\r\n" + 
+				"지붕\r\n" + 
+				"할 수 없는\r\n" + 
+				"비용\r\n" + 
+				"발의\r\n" + 
+				"다이어트\r\n" + 
+				"체포\r\n" + 
+				"자금\r\n" + 
+				"요법\r\n" + 
+				"빨래\r\n" + 
+				"시간표\r\n" + 
+				"슬퍼\r\n" + 
+				"간결한\r\n" + 
+				"주택\r\n" + 
+				"게시하다\r\n" + 
+				"매수\r\n" + 
+				"기존의\r\n" + 
+				"어두운\r\n" + 
+				"강철\r\n" + 
+				"...에 관해서\r\n" + 
+				"외침\r\n" + 
+				"남은\r\n" + 
+				"시각적 인\r\n" + 
+				"꽤\r\n" + 
+				"칩\r\n" + 
+				"격렬한\r\n" + 
+				"조용한\r\n" + 
+				"가정하다\r\n" + 
+				"본인\r\n" + 
+				"자전거\r\n" + 
+				"차\r\n" + 
+				"지각하다\r\n" + 
+				"비교\r\n" + 
+				"정착\r\n" + 
+				"층\r\n" + 
+				"계획\r\n" + 
+				"멀리\r\n" + 
+				"기술\r\n" + 
+				"후에\r\n" + 
+				"느린\r\n" + 
+				"슬라이드\r\n" + 
+				"넓게\r\n" + 
+				"혼례\r\n" + 
+				"알리다\r\n" + 
+				"일부\r\n" + 
+				"영토\r\n" + 
+				"즉시의\r\n" + 
+				"상대\r\n" + 
+				"버리다\r\n" + 
+				"링크\r\n" + 
+				"질량\r\n" + 
+				"호수\r\n" + 
+				"변환\r\n" + 
+				"장력\r\n" + 
+				"디스플레이\r\n" + 
+				"주요한\r\n" + 
+				"귀찮음\r\n" + 
+				"이루어져 있다\r\n" + 
+				"알코올\r\n" + 
+				"가능하게하다\r\n" + 
+				"굽히다\r\n" + 
+				"절약\r\n" + 
+				"이득\r\n" + 
+				"사막\r\n" + 
+				"하여야 한다\r\n" + 
+				"오류\r\n" + 
+				"해제\r\n" + 
+				"순경\r\n" + 
+				"아라비아 사람\r\n" + 
+				"더블\r\n" + 
+				"산책\r\n" + 
+				"모래\r\n" + 
+				"스페인 사람\r\n" + 
+				"규칙\r\n" + 
+				"히트\r\n" + 
+				"인쇄\r\n" + 
+				"영역\r\n" + 
+				"통로\r\n" + 
+				"정식의\r\n" + 
+				"전이\r\n" + 
+				"존재\r\n" + 
+				"앨범\r\n" + 
+				"참여\r\n" + 
+				"붙이다\r\n" + 
+				"분위기\r\n" + 
+				"관절\r\n" + 
+				"댓글\r\n" + 
+				"주기\r\n" + 
+				"반대말\r\n" + 
+				"자물쇠\r\n" + 
+				"완전한\r\n" + 
+				"받을 만하다\r\n" + 
+				"일관된\r\n" + 
+				"저항\r\n" + 
+				"발견\r\n" + 
+				"찢다\r\n" + 
+				"노출\r\n" + 
+				"자세\r\n" + 
+				"흐름\r\n" + 
+				"판매\r\n" + 
+				"믿음\r\n" + 
+				"이익\r\n" + 
+				"냄비\r\n" + 
+				"멋진\r\n" + 
+				"광산\r\n" + 
+				"여보세요\r\n" + 
+				"연합\r\n" + 
+				"이야기\r\n" + 
+				"칼\r\n" + 
+				"결의\r\n" + 
+				"인종\r\n" + 
+				"단계\r\n" + 
+				"선물\r\n" + 
+				"농담\r\n" + 
+				"코트\r\n" + 
+				"멕시코 인\r\n" + 
+				"징후\r\n" + 
+				"접촉\r\n" + 
+				"제조자\r\n" + 
+				"철학\r\n" + 
+				"감자\r\n" + 
+				"회견\r\n" + 
+				"기초\r\n" + 
+				"인용문\r\n" + 
+				"온라인\r\n" + 
+				"패스\r\n" + 
+				"협상\r\n" + 
+				"좋은\r\n" + 
+				"충동\r\n" + 
+				"기회\r\n" + 
+				"먼지\r\n" + 
+				"숨을 쉬다\r\n" + 
+				"선택된\r\n" + 
+				"조사자\r\n" + 
+				"재킷\r\n" + 
+				"기쁜\r\n" + 
+				"보통주\r\n" + 
+				"절감\r\n" + 
+				"드물게\r\n" + 
+				"시프트\r\n" + 
+				"팩\r\n" + 
+				"자살\r\n" + 
+				"수많은\r\n" + 
+				"접촉\r\n" + 
+				"물질\r\n" + 
+				"징계\r\n" + 
+				"다른 곳에\r\n" + 
+				"철\r\n" + 
+				"실용적인\r\n" + 
+				"그 위에\r\n" + 
+				"열정\r\n" + 
+				"지원자\r\n" + 
+				"도구\r\n" + 
+				"본질적으로\r\n" + 
+				"유전자\r\n" + 
+				"시행\r\n" + 
+				"대\r\n" + 
+				"소스\r\n" + 
+				"독립\r\n" + 
+				"마케팅\r\n" + 
+				"성직자\r\n" + 
+				"놀랄 만한\r\n" + 
+				"심한\r\n" + 
+				"전진\r\n" + 
+				"고용주\r\n" + 
+				"충격\r\n" + 
+				"일으키게 하다\r\n" + 
+				"맞추다\r\n" + 
+				"은퇴하다\r\n" + 
+				"확실한\r\n" + 
+				"명백한\r\n" + 
+				"키스\r\n" + 
+				"병고\r\n" + 
+				"캡\r\n" + 
+				"습관\r\n" + 
+				"경쟁력있는\r\n" + 
+				"주스\r\n" + 
+				"의회\r\n" + 
+				"개입\r\n" + 
+				"억누르다\r\n" + 
+				"이전에\r\n" + 
+				"할때는 언제나\r\n" + 
+				"이전\r\n" + 
+				"분석하다\r\n" + 
+				"다른\r\n" + 
+				"붙이다\r\n" + 
+				"...에 대한\r\n" + 
+				"옥수수\r\n" + 
+				"재앙\r\n" + 
+				"주차\r\n" + 
+				"전망\r\n" + 
+				"보스\r\n" + 
+				"불평\r\n" + 
+				"선수권 대회\r\n" + 
+				"코치\r\n" + 
+				"운동\r\n" + 
+				"기본적인\r\n" + 
+				"심한\r\n" + 
+				"높이다\r\n" + 
+				"신비\r\n" + 
+				"두다\r\n" + 
+				"가난\r\n" + 
+				"다른\r\n" + 
+				"기입\r\n" + 
+				"지방\r\n" + 
+				"지출\r\n" + 
+				"왕\r\n" + 
+				"평가하다\r\n" + 
+				"상징\r\n" + 
+				"아직도\r\n" + 
+				"무역\r\n" + 
+				"만드는 사람\r\n" + 
+				"기분\r\n" + 
+				"달하다\r\n" + 
+				"중요성\r\n" + 
+				"설명하다\r\n" + 
+				"신병\r\n" + 
+				"감시 장치\r\n" + 
+				"아시아 사람\r\n" + 
+				"환대\r\n" + 
+				"콩\r\n" + 
+				"평가\r\n" + 
+				"생물\r\n" + 
+				"사령관\r\n" + 
+				"디지털\r\n" + 
+				"배열\r\n" + 
+				"집중\r\n" + 
+				"합계\r\n" + 
+				"보통의\r\n" + 
+				"분노\r\n" + 
+				"심리적 인\r\n" + 
+				"무겁게\r\n" + 
+				"피크\r\n" + 
+				"대략\r\n" + 
+				"증가하는\r\n" + 
+				"무질서\r\n" + 
+				"미사일\r\n" + 
+				"같이\r\n" + 
+				"다르다\r\n" + 
+				"철사\r\n" + 
+				"일주\r\n" + 
+				"분포\r\n" + 
+				"교통\r\n" + 
+				"거룩한\r\n" + 
+				"반지\r\n" + 
+				"쌍\r\n" + 
+				"명령\r\n" + 
+				"위원회\r\n" + 
+				"해석\r\n" + 
+				"아침 식사\r\n" + 
+				"중지\r\n" + 
+				"강하게\r\n" + 
+				"공학\r\n" + 
+				"운\r\n" + 
+				"소위\r\n" + 
+				"일정한\r\n" + 
+				"경주\r\n" + 
+				"진료소\r\n" + 
+				"재향 군인\r\n" + 
+				"냄새\r\n" + 
+				"큰 스푼\r\n" + 
+				"유능한\r\n" + 
+				"강한\r\n" + 
+				"관광객\r\n" + 
+				"빛\r\n" + 
 				"던져 올림\r\n" + 
 				"결정적인\r\n" + 
 				"묻다\r\n" + 
@@ -2330,7 +2638,7 @@ public class KoreanParser {
 				"테러\r\n" + 
 				"난민\r\n" + 
 				"통합하다\r\n" + 
-				"잘 알고 있기\r\n" + 
+				"잘 알고 있기\r\n" +
 				"최고의\r\n" + 
 				"스위치\r\n" + 
 				"법인\r\n" + 
@@ -2636,7 +2944,7 @@ public class KoreanParser {
 				"항소\r\n" + 
 				"체하다\r\n" + 
 				"아니\r\n" + 
-				"노인\r\n" +
+				"노인\r\n" + 
 				"대표로\r\n" + 
 				"사슴\r\n" + 
 				"스플릿\r\n" + 
@@ -2647,7 +2955,7 @@ public class KoreanParser {
 				"확고한\r\n" + 
 				"치명적인\r\n" + 
 				"어느 쪽도 아니다\r\n" + 
-				"운명\r\n" + 
+				"운명\r\n" +
 				"수입\r\n" + 
 				"오븐\r\n" + 
 				"구별\r\n" + 
@@ -2951,7 +3259,7 @@ public class KoreanParser {
 				"더욱이\r\n" + 
 				"코메디\r\n" + 
 				"저당\r\n" + 
-				"제재\r\n" + 
+				"제재\r\n" +
 				"일반 민간인\r\n" + 
 				"열두\r\n" + 
 				"주간\r\n" + 
@@ -3244,7 +3552,7 @@ public class KoreanParser {
 				"신뢰할 수있는\r\n" + 
 				"흥분\r\n" + 
 				"소고기\r\n" + 
-				"이슬람교\r\n" +
+				"이슬람교\r\n" + 
 				"로마 인\r\n" + 
 				"뻗기\r\n" + 
 				"건축물\r\n" + 
@@ -3514,7 +3822,7 @@ public class KoreanParser {
 				"의미있는\r\n" + 
 				"보도\r\n" + 
 				"올림픽\r\n" + 
-				"기술적 인\r\n" + 
+				"기술적 인\r\n" +
 				"서명\r\n" + 
 				"쾌적한\r\n" + 
 				"와우\r\n" + 
@@ -3763,7 +4071,7 @@ public class KoreanParser {
 				"혁명적 인\r\n" + 
 				"로맨스\r\n" + 
 				"하드웨어\r\n" + 
-				"베개\r\n" +
+				"베개\r\n" + 
 				"전부\r\n" + 
 				"쿡\r\n" + 
 				"전파\r\n" + 
@@ -3851,7 +4159,7 @@ public class KoreanParser {
 				"양탄자\r\n" + 
 				"부모\r\n" + 
 				"거품\r\n" + 
-				"열\r\n" + 
+				"열\r\n" +
 				"동료\r\n" + 
 				"외양간\r\n" + 
 				"검\r\n" + 
@@ -4109,7 +4417,7 @@ public class KoreanParser {
 				"기세\r\n" + 
 				"지갑\r\n" + 
 				"흘리다\r\n" + 
-				"액체\r\n" +
+				"액체\r\n" + 
 				"상\r\n" + 
 				"코끼리\r\n" + 
 				"따라서\r\n" + 
@@ -4229,7 +4537,7 @@ public class KoreanParser {
 				"쟁반\r\n" + 
 				"개척자\r\n" + 
 				"조직적인\r\n" + 
-				"교과서\r\n" + 
+				"교과서\r\n" +
 				"어.\r\n" + 
 				"추잡한\r\n" + 
 				"수축\r\n" + 
@@ -4626,7 +4934,7 @@ public class KoreanParser {
 				"밀집한\r\n" + 
 				"세미나\r\n" + 
 				"전자 제품\r\n" + 
-				"맑은\r\n" + 
+				"맑은\r\n" +
 				"반바지\r\n" + 
 				"팽창\r\n" + 
 				"고발\r\n" + 
@@ -4705,11 +5013,13 @@ public class KoreanParser {
 				"아이\r\n" + 
 				"중산층\r\n" + 
 				"사과\r\n" + 
-				"까지\r\n";
-		
+				"까지\r\n" + 
+				"발전기\r\n"+
+				"";
 	}
 	
-	public static String koreanPronounce() {
+	private static String pronounceKorean() {
+		
 		return "geumankeum\r\n" + 
 				"issda\r\n" + 
 				"gwa\r\n" + 
@@ -5057,7 +5367,7 @@ public class KoreanParser {
 				"geongang\r\n" + 
 				"salam\r\n" + 
 				"misul\r\n" + 
-				"hwagsilhan\r\n" + 
+				"hwagsilhan\r\n" +
 				"ileohan\r\n" + 
 				"jeonjaeng\r\n" + 
 				"yeogsa\r\n" + 
@@ -5281,7 +5591,7 @@ public class KoreanParser {
 				"gisulhada\r\n" + 
 				"saengseongmul\r\n" + 
 				"uisa\r\n" + 
-				"byeog\r\n" +
+				"byeog\r\n" + 
 				"hwanja\r\n" + 
 				"nodongja\r\n" + 
 				"nyuseu\r\n" + 
@@ -5374,7 +5684,7 @@ public class KoreanParser {
 				"eunhaeng\r\n" + 
 				"jagi\r\n" + 
 				"hwagsilhi\r\n" + 
-				"seojjog-ui\r\n" + 
+				"seojjog\r\n" + 
 				"seupocheu\r\n" + 
 				"pan\r\n" + 
 				"mogpyomul tamsaeg\r\n" + 
@@ -5594,7 +5904,7 @@ public class KoreanParser {
 				"dadgi\r\n" + 
 				"soli\r\n" + 
 				"jeulgyeo\r\n" + 
-				"hoelomang\r\n" + 
+				"hoelomang\r\n" +
 				"jeogbeobhan\r\n" + 
 				"jong-gyojeog-in\r\n" + 
 				"gamgi\r\n" + 
@@ -5655,7 +5965,7 @@ public class KoreanParser {
 				"beob-an\r\n" + 
 				"neolb-eun\r\n" + 
 				"tteollim\r\n" + 
-				"pali\r\n" +
+				"pali\r\n" + 
 				"hoegyeon\r\n" + 
 				"kkulida\r\n" + 
 				"uija\r\n" + 
@@ -6020,7 +6330,7 @@ public class KoreanParser {
 				"ijeom\r\n" + 
 				"ppalli\r\n" + 
 				"bich\r\n" + 
-				"jido\r\n" + 
+				"jido\r\n" +
 				"beolda\r\n" + 
 				"paundeu\r\n" + 
 				"gicho\r\n" + 
@@ -6133,7 +6443,7 @@ public class KoreanParser {
 				"tagyeog\r\n" + 
 				"guseong\r\n" + 
 				"jonglyu\r\n" + 
-				"jiseong\r\n" +
+				"jiseong\r\n" + 
 				"myeolhada\r\n" + 
 				"kug\r\n" + 
 				"yeongyeol\r\n" + 
@@ -6697,7 +7007,7 @@ public class KoreanParser {
 				"jeung-geo\r\n" + 
 				"sihab\r\n" + 
 				"gansinhi\r\n" + 
-				"bumun\r\n" + 
+				"bumun\r\n" +
 				"daeliin\r\n" + 
 				"gyeolpib\r\n" + 
 				"alaeseo\r\n" + 
@@ -6818,7 +7128,315 @@ public class KoreanParser {
 				"libyu\r\n" + 
 				"deopgae\r\n" + 
 				"laeb\r\n" + 
-				"~hada\r\n" +
+				"jegong\r\n" + 
+				"diseupeullei\r\n" + 
+				"bipan\r\n" + 
+				"yusan\r\n" + 
+				"uuljeung\r\n" + 
+				"yeongjeog-in\r\n" + 
+				"myujikeol\r\n" + 
+				"gija\r\n" + 
+				"gido\r\n" + 
+				"yong-uija\r\n" + 
+				"hagja\r\n" + 
+				"gyeong-go\r\n" + 
+				"gihu\r\n" + 
+				"chijeu\r\n" + 
+				"gwancheug\r\n" + 
+				"eolin sijeol\r\n" + 
+				"jibul\r\n" + 
+				"gyeong\r\n" + 
+				"heoga\r\n" + 
+				"dambae\r\n" + 
+				"jeong-ui\r\n" + 
+				"useon sun-wi\r\n" + 
+				"ppang\r\n" + 
+				"changjo\r\n" + 
+				"jol-eobhada\r\n" + 
+				"uiloe\r\n" + 
+				"gamjeong\r\n" + 
+				"bimyeong\r\n" + 
+				"geugjeog-in\r\n" + 
+				"uju\r\n" + 
+				"gaeb\r\n" + 
+				"usuhan\r\n" + 
+				"gip-i\r\n" + 
+				"suhaengja\r\n" + 
+				"pyo\r\n" + 
+				"nogsaeg\r\n" + 
+				"un-i joh-eun\r\n" + 
+				"gyeon-in\r\n" + 
+				"gong-gi hoseu\r\n" + 
+				"doseogwan\r\n" + 
+				"bimanglog\r\n" + 
+				"dasi deopda\r\n" + 
+				"gongjang\r\n" + 
+				"seontaeg\r\n" + 
+				"julo\r\n" + 
+				"jibung\r\n" + 
+				"hal su eobsneun\r\n" + 
+				"biyong\r\n" + 
+				"bal-ui\r\n" + 
+				"daieoteu\r\n" + 
+				"chepo\r\n" + 
+				"jageum\r\n" + 
+				"yobeob\r\n" + 
+				"ppallae\r\n" + 
+				"siganpyo\r\n" + 
+				"seulpeo\r\n" + 
+				"gangyeolhan\r\n" + 
+				"jutaeg\r\n" + 
+				"gesihada\r\n" + 
+				"maesu\r\n" + 
+				"gijon-ui\r\n" + 
+				"eoduun\r\n" + 
+				"gangcheol\r\n" + 
+				"...e gwanhaeseo\r\n" + 
+				"oechim\r\n" + 
+				"nam-eun\r\n" + 
+				"sigagjeog in\r\n" + 
+				"kkwae\r\n" + 
+				"chib\r\n" + 
+				"gyeoglyeolhan\r\n" + 
+				"joyonghan\r\n" + 
+				"gajeonghada\r\n" + 
+				"bon-in\r\n" + 
+				"jajeongeo\r\n" + 
+				"cha\r\n" + 
+				"jigaghada\r\n" + 
+				"bigyo\r\n" + 
+				"jeongchag\r\n" + 
+				"cheung\r\n" + 
+				"gyehoeg\r\n" + 
+				"meolli\r\n" + 
+				"gisul\r\n" + 
+				"hue\r\n" + 
+				"neulin\r\n" + 
+				"seullaideu\r\n" + 
+				"neolbge\r\n" + 
+				"honlye\r\n" + 
+				"allida\r\n" + 
+				"ilbu\r\n" + 
+				"yeongto\r\n" + 
+				"jeugsiui\r\n" + 
+				"sangdae\r\n" + 
+				"beolida\r\n" + 
+				"lingkeu\r\n" + 
+				"jillyang\r\n" + 
+				"hosu\r\n" + 
+				"byeonhwan\r\n" + 
+				"janglyeog\r\n" + 
+				"diseupeullei\r\n" + 
+				"juyohan\r\n" + 
+				"gwichanh-eum\r\n" + 
+				"ilueojyeo issda\r\n" + 
+				"alkool\r\n" + 
+				"ganeunghagehada\r\n" + 
+				"gubhida\r\n" + 
+				"jeol-yag\r\n" + 
+				"ideug\r\n" + 
+				"samag\r\n" + 
+				"hayeoya handa\r\n" + 
+				"olyu\r\n" + 
+				"haeje\r\n" + 
+				"sungyeong\r\n" + 
+				"alabia salam\r\n" + 
+				"deobeul\r\n" + 
+				"sanchaeg\r\n" + 
+				"molae\r\n" + 
+				"seupein salam\r\n" + 
+				"gyuchig\r\n" + 
+				"hiteu\r\n" + 
+				"inswae\r\n" + 
+				"yeong-yeog\r\n" + 
+				"tonglo\r\n" + 
+				"jeongsig-ui\r\n" + 
+				"jeon-i\r\n" + 
+				"jonjae\r\n" + 
+				"aelbeom\r\n" + 
+				"cham-yeo\r\n" + 
+				"but-ida\r\n" + 
+				"bun-wigi\r\n" + 
+				"gwanjeol\r\n" + 
+				"daesgeul\r\n" + 
+				"jugi\r\n" + 
+				"bandaemal\r\n" + 
+				"jamulsoe\r\n" + 
+				"wanjeonhan\r\n" + 
+				"bad-eul manhada\r\n" + 
+				"ilgwandoen\r\n" + 
+				"jeohang\r\n" + 
+				"balgyeon\r\n" + 
+				"jjijda\r\n" + 
+				"nochul\r\n" + 
+				"jase\r\n" + 
+				"heuleum\r\n" + 
+				"panmae\r\n" + 
+				"mid-eum\r\n" + 
+				"iig\r\n" + 
+				"naembi\r\n" + 
+				"meosjin\r\n" + 
+				"gwangsan\r\n" + 
+				"yeoboseyo\r\n" + 
+				"yeonhab\r\n" + 
+				"iyagi\r\n" + 
+				"kal\r\n" + 
+				"gyeol-ui\r\n" + 
+				"injong\r\n" + 
+				"dangye\r\n" + 
+				"seonmul\r\n" + 
+				"nongdam\r\n" + 
+				"koteu\r\n" + 
+				"megsiko in\r\n" + 
+				"jinghu\r\n" + 
+				"jeobchog\r\n" + 
+				"jejoja\r\n" + 
+				"cheolhag\r\n" + 
+				"gamja\r\n" + 
+				"hoegyeon\r\n" + 
+				"gicho\r\n" + 
+				"in-yongmun\r\n" + 
+				"onlain\r\n" + 
+				"paeseu\r\n" + 
+				"hyeobsang\r\n" + 
+				"joh-eun\r\n" + 
+				"chungdong\r\n" + 
+				"gihoe\r\n" + 
+				"meonji\r\n" + 
+				"sum-eul swida\r\n" + 
+				"seontaegdoen\r\n" + 
+				"josaja\r\n" + 
+				"jaekis\r\n" + 
+				"gippeun\r\n" + 
+				"botongju\r\n" + 
+				"jeolgam\r\n" + 
+				"deumulge\r\n" + 
+				"sipeuteu\r\n" + 
+				"paeg\r\n" + 
+				"jasal\r\n" + 
+				"sumanh-eun\r\n" + 
+				"jeobchog\r\n" + 
+				"muljil\r\n" + 
+				"jing-gye\r\n" + 
+				"daleun gos-e\r\n" + 
+				"cheol\r\n" + 
+				"sil-yongjeog-in\r\n" + 
+				"geu wie\r\n" + 
+				"yeoljeong\r\n" + 
+				"jiwonja\r\n" + 
+				"dogu\r\n" + 
+				"bonjiljeog-eulo\r\n" + 
+				"yujeonja\r\n" + 
+				"sihaeng\r\n" + 
+				"dae\r\n" + 
+				"soseu\r\n" + 
+				"doglib\r\n" + 
+				"maketing\r\n" + 
+				"seongjigja\r\n" + 
+				"nollal manhan\r\n" + 
+				"simhan\r\n" + 
+				"jeonjin\r\n" + 
+				"goyongju\r\n" + 
+				"chung-gyeog\r\n" + 
+				"il-eukige hada\r\n" + 
+				"majchuda\r\n" + 
+				"euntoehada\r\n" + 
+				"hwagsilhan\r\n" + 
+				"myeongbaeghan\r\n" + 
+				"kiseu\r\n" + 
+				"byeong-go\r\n" + 
+				"kaeb\r\n" + 
+				"seubgwan\r\n" + 
+				"gyeongjaenglyeog-issneun\r\n" + 
+				"juseu\r\n" + 
+				"uihoe\r\n" + 
+				"gaeib\r\n" + 
+				"eognuleuda\r\n" + 
+				"ijeon-e\r\n" + 
+				"halttaeneun eonjena\r\n" + 
+				"ijeon\r\n" + 
+				"bunseoghada\r\n" + 
+				"daleun\r\n" + 
+				"but-ida\r\n" + 
+				"...e daehan\r\n" + 
+				"ogsusu\r\n" + 
+				"jaeang\r\n" + 
+				"jucha\r\n" + 
+				"jeonmang\r\n" + 
+				"boseu\r\n" + 
+				"bulpyeong\r\n" + 
+				"seonsugwon daehoe\r\n" + 
+				"kochi\r\n" + 
+				"undong\r\n" + 
+				"gibonjeog-in\r\n" + 
+				"simhan\r\n" + 
+				"nop-ida\r\n" + 
+				"sinbi\r\n" + 
+				"duda\r\n" + 
+				"ganan\r\n" + 
+				"daleun\r\n" + 
+				"giib\r\n" + 
+				"jibang\r\n" + 
+				"jichul\r\n" + 
+				"wang\r\n" + 
+				"pyeong-gahada\r\n" + 
+				"sangjing\r\n" + 
+				"ajigdo\r\n" + 
+				"muyeog\r\n" + 
+				"mandeuneun salam\r\n" + 
+				"gibun\r\n" + 
+				"dalhada\r\n" + 
+				"jung-yoseong\r\n" + 
+				"seolmyeonghada\r\n" + 
+				"sinbyeong\r\n" + 
+				"gamsi jangchi\r\n" + 
+				"asia salam\r\n" + 
+				"hwandae\r\n" + 
+				"kong\r\n" + 
+				"pyeong-ga\r\n" + 
+				"saengmul\r\n" + 
+				"salyeong-gwan\r\n" + 
+				"dijiteol\r\n" + 
+				"baeyeol\r\n" + 
+				"jibjung\r\n" + 
+				"habgye\r\n" + 
+				"botong-ui\r\n" + 
+				"bunno\r\n" + 
+				"simlijeog in\r\n" + 
+				"mugeobge\r\n" + 
+				"pikeu\r\n" + 
+				"daelyag\r\n" + 
+				"jeung-gahaneun\r\n" + 
+				"mujilseo\r\n" + 
+				"misail\r\n" + 
+				"gat-i\r\n" + 
+				"daleuda\r\n" + 
+				"cheolsa\r\n" + 
+				"ilju\r\n" + 
+				"bunpo\r\n" + 
+				"gyotong\r\n" + 
+				"geolughan\r\n" + 
+				"banji\r\n" + 
+				"ssang\r\n" + 
+				"myeonglyeong\r\n" + 
+				"wiwonhoe\r\n" + 
+				"haeseog\r\n" + 
+				"achim sigsa\r\n" + 
+				"jungji\r\n" + 
+				"ganghage\r\n" + 
+				"gonghag\r\n" + 
+				"un\r\n" + 
+				"sowi\r\n" + 
+				"iljeonghan\r\n" + 
+				"gyeongju\r\n" + 
+				"jinlyoso\r\n" + 
+				"jaehyang gun-in\r\n" + 
+				"naemsae\r\n" + 
+				"keun seupun\r\n" + 
+				"yuneunghan\r\n" + 
+				"ganghan\r\n" + 
+				"gwangwang-gaeg\r\n" + 
+				"bich\r\n" + 
 				"deonjyeo ollim\r\n" + 
 				"gyeoljeongjeog-in\r\n" + 
 				"mudda\r\n" + 
@@ -7025,7 +7643,7 @@ public class KoreanParser {
 				"teleo\r\n" + 
 				"nanmin\r\n" + 
 				"tonghabhada\r\n" + 
-				"jal algo issgi\r\n" + 
+				"jal algo issgi\r\n" +
 				"choegoui\r\n" + 
 				"seuwichi\r\n" + 
 				"beob-in\r\n" + 
@@ -7331,7 +7949,7 @@ public class KoreanParser {
 				"hangso\r\n" + 
 				"chehada\r\n" + 
 				"ani\r\n" + 
-				"noin\r\n" +
+				"noin\r\n" + 
 				"daepyolo\r\n" + 
 				"saseum\r\n" + 
 				"seupeullis\r\n" + 
@@ -7342,7 +7960,7 @@ public class KoreanParser {
 				"hwaggohan\r\n" + 
 				"chimyeongjeog-in\r\n" + 
 				"eoneu jjogdo anida\r\n" + 
-				"unmyeong\r\n" + 
+				"unmyeong\r\n" +
 				"su-ib\r\n" + 
 				"obeun\r\n" + 
 				"gubyeol\r\n" + 
@@ -7546,7 +8164,7 @@ public class KoreanParser {
 				"sinsoghan\r\n" + 
 				"uiloe\r\n" + 
 				"kolleseutelol\r\n" + 
-				"eobs-aeda\r\n" +
+				"eobs-aeda\r\n" + 
 				"jojeong\r\n" + 
 				"nabseja\r\n" + 
 				"simhan\r\n" + 
@@ -7646,7 +8264,7 @@ public class KoreanParser {
 				"deoug-i\r\n" + 
 				"komedi\r\n" + 
 				"jeodang\r\n" + 
-				"jejae\r\n" + 
+				"jejae\r\n" +
 				"ilban mingan-in\r\n" + 
 				"yeoldu\r\n" + 
 				"jugan\r\n" + 
@@ -7939,7 +8557,7 @@ public class KoreanParser {
 				"sinloehal su-issneun\r\n" + 
 				"heungbun\r\n" + 
 				"sogogi\r\n" + 
-				"iseullamgyo\r\n" +
+				"iseullamgyo\r\n" + 
 				"loma in\r\n" + 
 				"ppeodgi\r\n" + 
 				"geonchugmul\r\n" + 
@@ -8209,7 +8827,7 @@ public class KoreanParser {
 				"uimiissneun\r\n" + 
 				"bodo\r\n" + 
 				"ollimpig\r\n" + 
-				"gisuljeog in\r\n" + 
+				"gisuljeog in\r\n" +
 				"seomyeong\r\n" + 
 				"kwaejeoghan\r\n" + 
 				"wau\r\n" + 
@@ -8546,7 +9164,7 @@ public class KoreanParser {
 				"yangtanja\r\n" + 
 				"bumo\r\n" + 
 				"geopum\r\n" + 
-				"yeol\r\n" + 
+				"yeol\r\n" +
 				"donglyo\r\n" + 
 				"oeyang-gan\r\n" + 
 				"geom\r\n" + 
@@ -8804,7 +9422,7 @@ public class KoreanParser {
 				"gise\r\n" + 
 				"jigab\r\n" + 
 				"heullida\r\n" + 
-				"aegche\r\n" +
+				"aegche\r\n" + 
 				"sang\r\n" + 
 				"kokkili\r\n" + 
 				"ttalaseo\r\n" + 
@@ -8924,7 +9542,7 @@ public class KoreanParser {
 				"jaengban\r\n" + 
 				"gaecheogja\r\n" + 
 				"jojigjeog-in\r\n" + 
-				"gyogwaseo\r\n" + 
+				"gyogwaseo\r\n" +
 				"eo.\r\n" + 
 				"chujabhan\r\n" + 
 				"suchug\r\n" + 
@@ -9173,7 +9791,7 @@ public class KoreanParser {
 				"bulhaenghan\r\n" + 
 				"beomjoeja\r\n" + 
 				"oneun\r\n" + 
-				"mollae\r\n" +
+				"mollae\r\n" + 
 				"bunsu\r\n" + 
 				"teug-yuui\r\n" + 
 				"gwangwang yeohaeng\r\n" + 
@@ -9321,7 +9939,7 @@ public class KoreanParser {
 				"miljibhan\r\n" + 
 				"semina\r\n" + 
 				"jeonja jepum\r\n" + 
-				"malg-eun\r\n" + 
+				"malg-eun\r\n" +
 				"banbaji\r\n" + 
 				"paengchang\r\n" + 
 				"gobal\r\n" + 
@@ -9400,8 +10018,10 @@ public class KoreanParser {
 				"ai\r\n" + 
 				"jungsancheung\r\n" + 
 				"sagwa\r\n" + 
-				"kkaji\r\n";
+				"kkaji\r\n" + 
+				"baljeongi\r\n" +
+				"";
 	}
 	
-	
 }
+
