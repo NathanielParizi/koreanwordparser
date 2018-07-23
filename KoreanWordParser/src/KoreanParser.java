@@ -5,11 +5,19 @@ public class KoreanParser {
 	public static void main(String[] args) throws IOException {
 
 		String korean = koreanParser();
+		String koreanP = pronounceKorean();
 		
 		
 		String lines[] = korean.split(System.getProperty("line.separator"));
 		
-		System.out.println(lines[4690]);  
+		System.out.println(lines[4999]);  
+		
+		
+		
+		
+		String linesP[] = koreanP.split(System.getProperty("line.separator"));
+		
+		System.out.println(linesP[4999]);  
 
 	}
 
